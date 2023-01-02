@@ -24,7 +24,7 @@ function About() {
               <h1>Web Developer</h1>
               <p>
                 {" "}
-                I am an Intermediate web developer, having good ability to
+                I am  web developer, having good ability to
                 transcribe any UI on website, good command of modern tools/
                 technologies, in Web development, meticulous, respects the rules
                 of good development , I am good in teamwork and leadership and I
@@ -39,7 +39,7 @@ function About() {
                     <span className="bold">Website : </span>www.sahilbisht.com
                   </p>
                   <p>
-                    <span className="bold">Phone : </span>91+ 95405805
+                    <span className="bold">Phone : </span>91+ 9540765805
                   </p>
                   <p>
                     <span className="bold">City: </span>New Delhi, India
@@ -51,11 +51,10 @@ function About() {
                     <span className="bold">Age : </span>22
                   </p>
                   <p>
-                    <span className="bold">Degree : </span>Bachelor's
+                    <span className="bold">Degree : </span>Bachelor's of Technology
                   </p>
                   <p>
-                    <span className="bold">Email : </span>
-                    sahilbisht19334@gmail.com
+                    <span className="bold">Email : </span>sahilbisht19334@gmail.com
                   </p>
                   <p>
                     <span className="bold">Freelancer : </span>Available
