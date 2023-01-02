@@ -14,7 +14,7 @@ function NavbarAll() {
             <NavLink to="/">Sahil Bisht</NavLink>
           </h1>
         </div>
-        <a href="#" className="toggle-button" onClick={() => setShow(!show)}>
+        <a href="/#" className="toggle-button" onClick={() => setShow(!show)}>
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
