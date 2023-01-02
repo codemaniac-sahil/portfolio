@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 // import Navbar from './Navbar'
 import NavbarAll from "./NavbarAll";
 
@@ -200,6 +201,7 @@ function About() {
               </div>
             </div>
           </div>
+          <Footer />
         </div>
       </div>
     </>

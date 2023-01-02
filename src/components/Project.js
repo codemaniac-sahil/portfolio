@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 // import Navbar from './Navbar'
 import NavbarAll from "./NavbarAll";
 import ProjectCard from "./ProjectCard";
@@ -72,6 +73,7 @@ function Project() {
             llink=""
           />
         </div>
+        <Footer />
       </div>
     </>
   );
