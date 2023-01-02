@@ -10,6 +10,7 @@ function Resume() {
         <object
           data="/file/Sahil_bisht-01-12-2022.pdf"
           type="application/pdf"
+          aria-label="Alternative Text"
         />
       </div>
     </>
