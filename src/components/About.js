@@ -24,11 +24,11 @@ function About() {
               <h1>Web Developer</h1>
               <p>
                 {" "}
-                I am  web developer, having good ability to
-                transcribe any UI on website, good command of modern tools/
-                technologies, in Web development, meticulous, respects the rules
-                of good development , I am good in teamwork and leadership and I
-                like to go ahead in aid propose ideas to advance a project.{" "}
+                I am web developer, having good ability to transcribe any UI on
+                website, good command of modern tools/ technologies, in Web
+                development, meticulous, respects the rules of good development
+                , I am good in teamwork and leadership and I like to go ahead in
+                aid propose ideas to advance a project.{" "}
               </p>
               <div className="info">
                 <div className="info-1">
@@ -48,13 +48,15 @@ function About() {
 
                 <div className="info-2">
                   <p>
-                    <span className="bold">Age : </span>22
+                    <span className="bold">Age : </span>21
                   </p>
                   <p>
-                    <span className="bold">Degree : </span>Bachelor's of Technology
+                    <span className="bold">Degree : </span>Bachelor's of
+                    Technology
                   </p>
                   <p>
-                    <span className="bold">Email : </span>sahilbisht19334@gmail.com
+                    <span className="bold">Email : </span>
+                    sahilbisht19334@gmail.com
                   </p>
                   <p>
                     <span className="bold">Freelancer : </span>Available
