@@ -35,9 +35,7 @@ function About() {
                   <p>
                     <span className="bold">Birthday : </span>08 December 2001
                   </p>
-                  <p>
-                    <span className="bold">Website : </span>www.sahilbisht.com
-                  </p>
+
                   <p>
                     <span className="bold">Phone : </span>91+ 9540765805
                   </p>
@@ -57,9 +55,6 @@ function About() {
                   <p>
                     <span className="bold">Email : </span>
                     sahilbisht19334@gmail.com
-                  </p>
-                  <p>
-                    <span className="bold">Freelancer : </span>Available
                   </p>
                 </div>
               </div>
