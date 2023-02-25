@@ -19,7 +19,7 @@ function Home() {
               India
             </h2>
             <nav className="navbar">
-              <a
+              {/* <a
                 href="#"
                 className="toggle-button"
                 onClick={() => setShow(!show)}
@@ -27,7 +27,7 @@ function Home() {
                 <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>
-              </a>
+              </a> */}
               <Navbar show={show} />
             </nav>
           </div>
