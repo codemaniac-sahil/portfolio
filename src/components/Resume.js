@@ -8,7 +8,7 @@ function Resume() {
       <NavbarAll />
       <div className="resume">
         <object
-          data="/file/Sahil_bisht-01-12-2022.pdf"
+          data="/file/sahil-bisht-01-11-2022.pdf"
           type="application/pdf"
           aria-label="Alternative Text"
         />

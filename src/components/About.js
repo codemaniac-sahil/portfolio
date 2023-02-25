@@ -64,139 +64,84 @@ function About() {
             <div class="section-title">
               <h1>Skills</h1>
             </div>
+          </div>
+          <div className="skill-image">
+            <div className="skill-img-card">
+              <img
+                src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png"
+                alt="html"
+              />
+            </div>
+            <div className="skill-img-card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+                alt="html5 logo, opencode css"
+              />
+            </div>
+            <div className="skill-img-card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png"
+                alt="Illustration For Creating The Library And Adding Dependencies - Js Logo Transparent, HD Png Download@kindpng.com"
+              />
+            </div>
+            <div className="skill-img-card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png"
+                alt="Illustration For Creating The Library And Adding Dependencies - Js Logo Transparent, HD Png Download@kindpng.com"
+              />
+            </div>
 
-            <div class="row skills-content">
-              <div class="skills-1">
-                <div class="progress">
-                  <span class="skill">
-                    HTML <i class="val">100%</i>
-                  </span>
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="100"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: "100%" }}
-                    ></div>
-                  </div>
-                </div>
+            <div className="skill-img-card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png"
+                alt="Illustration For Creating The Library And Adding Dependencies - Js Logo Transparent, HD Png Download@kindpng.com"
+              />
+            </div>
+            <div className="skill-img-card">
+              <img
+                src="https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Logo.png"
+                alt="Illustration For Creating The Library And Adding Dependencies - Js Logo Transparent, HD Png Download@kindpng.com"
+              />
+            </div>
+            <div className="skill-img-card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/archive/6/64/20170429090804%21Expressjs.png"
+                alt="Illustration For Creating The Library And Adding Dependencies - Js Logo Transparent, HD Png Download@kindpng.com"
+              />
+            </div>
+            <div className="skill-img-card">
+              <img
+                src="https://www.php.net/images/logos/new-php-logo.svg"
+                alt="Illustration For Creating The Library And Adding Dependencies - Js Logo Transparent, HD Png Download@kindpng.com"
+              />
+            </div>
 
-                <div class="progress">
-                  <span class="skill">
-                    CSS <i class="val">90%</i>
-                  </span>
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="90"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: "90%" }}
-                    ></div>
-                  </div>
-                </div>
-
-                <div class="progress">
-                  <span class="skill">
-                    JavaScript <i class="val">75%</i>
-                  </span>
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="75"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: "75%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div class="progress">
-                  <span class="skill">
-                    ReactJS <i class="val">90%</i>
-                  </span>
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="55"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: "90%" }}
-                    ></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="skills-2">
-                <div class="progress">
-                  <span class="skill">
-                    PHP <i class="val">80%</i>
-                  </span>
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="80"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: "80%" }}
-                    ></div>
-                  </div>
-                </div>
-
-                <div class="progress">
-                  <span class="skill">
-                    MySQL <i class="val">90%</i>
-                  </span>
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="90"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: "90%" }}
-                    ></div>
-                  </div>
-                </div>
-
-                <div class="progress">
-                  <span class="skill">
-                    NodeJS <i class="val">70%</i>
-                  </span>
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="55"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: "70%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div class="progress">
-                  <span class="skill">
-                    MongoDB <i class="val">60%</i>
-                  </span>
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="55"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: "60%" }}
-                    ></div>
-                  </div>
-                </div>
-              </div>
+            <div className="skill-img-card">
+              <img
+                src="https://www.logo.wine/a/logo/MySQL/MySQL-Logo.wine.svg"
+                alt="mysql"
+              />
+            </div>
+            <div className="skill-img-card">
+              <img
+                src="https://logos-download.com/wp-content/uploads/2016/10/Python_logo_icon.png"
+                alt="mysql"
+              />
+            </div>
+            <div className="skill-img-card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
+                alt="mysql"
+              />
+            </div>
+            <div className="skill-img-card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg"
+                alt="c language"
+              />
             </div>
           </div>
+
           <Footer />
         </div>
       </div>

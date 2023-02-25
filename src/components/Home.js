@@ -20,7 +20,7 @@ function Home() {
             </h2>
             <nav className="navbar">
               <a
-                href="/#"
+                href="#"
                 className="toggle-button"
                 onClick={() => setShow(!show)}
               >

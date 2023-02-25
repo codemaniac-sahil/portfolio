@@ -329,7 +329,7 @@ box-shadow: 0px 13px 10px -7px #242424; */
   background-color: white;
   border-radius: 10px;
 }
-@media only screen and (max-width:380px) {
+@media only screen and (max-width:360px) {
   .navlinks-mobile-menu{
     display: flex;
     flex-direction: column;
@@ -470,4 +470,30 @@ box-shadow: 0px 13px 10px -7px #242424; */
 .footer-section{
   display: flex;
   justify-content: center;
+}
+
+
+.skill-image{
+  display: flex;
+  /* flex-direction: column; */
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skill-image-row-1,.skill-image-row-2,.skill-image-row-3{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em ;
+
+}
+.skill-img-card{
+  width: 10em;
+  height: 10em;
+  background-color: white;
+  padding: 1px;
+}
+.skill-img-card img{
+  width: 100%;
+  height: 100%;
 }
