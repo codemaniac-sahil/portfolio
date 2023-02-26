@@ -2,10 +2,10 @@ import React from "react";
 // import Navbar from './Navbar'
 import NavbarAll from "./NavbarAll";
 
-function Resume() {
+function Resume(props) {
   return (
     <>
-      <NavbarAll />
+      <NavbarAll theme={props.theme} />
       <div className="resume">
         <object
           data="/file/sahil-bisht-01-11-2022.pdf"

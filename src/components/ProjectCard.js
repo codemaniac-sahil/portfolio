@@ -4,7 +4,7 @@ function ProjectCard(props) {
   return (
     <>
       {props.llink === "" ? (
-        <div className="card">
+        <div className={`card-${props.theme}`}>
           <span className="card-title">
             <h2>{props.title}</h2>
           </span>
@@ -19,7 +19,7 @@ function ProjectCard(props) {
           </span>
         </div>
       ) : (
-        <div className="card">
+        <div className={`card-${props.theme}`}>
           <span className="card-title">
             <h2>{props.title}</h2>
           </span>

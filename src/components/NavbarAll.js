@@ -4,22 +4,23 @@ import { NavLink } from "react-router-dom";
 import NavbarOne from "./NavbarOne";
 import { useState } from "react";
 
-function NavbarAll() {
+function NavbarAll(props) {
   const [show, setShow] = useState(false);
   return (
-    <div className="navbarall">
-      <div className="navbar-1">
-        <div className="logo">
+    <div className={`navbarall-${props.theme}`}>
+      <div className={`navbar-1-${props.theme}`}>
+        <div className={`logo-${props.theme}`}>
           <h1>
             <NavLink to="/">Sahil Bisht</NavLink>
           </h1>
         </div>
         <a href="#" className="toggle-button" onClick={() => setShow(!show)}>
-          <span className="bar"></span>
-          <span className="bar"></span>
-          <span className="bar"></span>
+          <span className={`bar-${props.theme}`}></span>
+          <span className={`bar-${props.theme}`}></span>
+
+          <span className={`bar-${props.theme}`}></span>
         </a>
-        <NavbarOne show={show} />
+        <NavbarOne show={show} theme={props.theme} />
       </div>
     </div>
   );

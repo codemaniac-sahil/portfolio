@@ -3,7 +3,12 @@ import { NavLink } from "react-router-dom";
 
 function Navbar(props) {
   return (
-    <ul className={props.show ? "navlinks-mobile-menu" : "navlinks"}>
+    // <ul className={props.show ? "navlinks-mobile-menu" : "navlinks ${}"}>
+    <ul
+      className={`${props.show ? "navlinks-mobile-menu" : "navlinks"}-${
+        props.theme
+      }`}
+    >
       <li>
         <NavLink to="/">Home</NavLink>
       </li>

@@ -1,15 +1,17 @@
 import React from "react";
 import Footer from "./Footer";
+// import LightMode from "./LightMode";
 // import Navbar from './Navbar'
 import NavbarAll from "./NavbarAll";
+import { FaMoon, FaSun } from "react-icons/fa";
 
-function About() {
+function About(props) {
   return (
     <>
-      <div className="about">
-        <NavbarAll />
+      <div className={`about-${props.theme}`}>
+        <NavbarAll theme={props.theme} />
 
-        <div className="aboutme">
+        <div className={`aboutme-${props.theme}`}>
           <p>
             ABOUT <hr id="line" />
           </p>
@@ -144,7 +146,15 @@ function About() {
 
           <Footer />
         </div>
+        <div className="theme-setting">
+          {props.theme === "dark" ? (
+            <FaSun onClick={props.toggleTheme} />
+          ) : (
+            <FaMoon onClick={props.toggleTheme} />
+          )}
+        </div>
       </div>
+      {/* <LightMode /> */}
     </>
   );
 }
