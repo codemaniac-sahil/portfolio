@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import { useState } from "react";
 import Footer from "./Footer";
 import { FaMoon, FaSun } from "react-icons/fa";
+import guywithhoody from "../images/guywithhoody.svg";
 
 function Home(props) {
   const [show, setShow] = useState(false);
@@ -49,6 +50,11 @@ function Home(props) {
               <a href="https://www.buymeacoffee.com/codemaniacsahil">
                 <SiBuymeacoffee />
               </a>
+            </div>
+          </div>
+          <div className="logo-img">
+            <div className="guywithhoody">
+              <img src={guywithhoody} alt="guywithhoddy" />
             </div>
           </div>
         </div>
