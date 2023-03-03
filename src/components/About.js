@@ -144,7 +144,7 @@ function About(props) {
             </div>
             <div className="skill-img-card">
               <img
-                src="https://allvectorlogo.com/img/2021/12/github-logo-vector.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"
                 alt="c language"
               />
             </div>
