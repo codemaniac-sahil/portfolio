@@ -148,6 +148,12 @@ function About(props) {
                 alt="c language"
               />
             </div>
+            <div className="skill-img-card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Ei-sc-github.svg"
+                alt="c language"
+              />
+            </div>
           </div>
 
           <Footer />
