@@ -77,81 +77,81 @@ function About(props) {
             <div className="skill-img-card">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
-                alt="html5 logo, opencode css"
+                alt="CSS Logo"
               />
             </div>
             <div className="skill-img-card">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png"
-                alt="Illustration For Creating The Library And Adding Dependencies - Js Logo Transparent, HD Png Download@kindpng.com"
+                alt="JS Logo"
               />
             </div>
             <div className="skill-img-card">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png"
-                alt="Illustration For Creating The Library And Adding Dependencies - Js Logo Transparent, HD Png Download@kindpng.com"
+                alt="ReactJs Logo"
               />
             </div>
 
             <div className="skill-img-card">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png"
-                alt="Illustration For Creating The Library And Adding Dependencies - Js Logo Transparent, HD Png Download@kindpng.com"
+                alt="NodeJs logo"
               />
             </div>
             <div className="skill-img-card">
               <img
                 src="https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Logo.png"
-                alt="Illustration For Creating The Library And Adding Dependencies - Js Logo Transparent, HD Png Download@kindpng.com"
+                alt="MongoDB Logo"
               />
             </div>
             <div className="skill-img-card">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/archive/6/64/20170429090804%21Expressjs.png"
-                alt="Illustration For Creating The Library And Adding Dependencies - Js Logo Transparent, HD Png Download@kindpng.com"
+                alt="ExpressJS Logo"
               />
             </div>
             <div className="skill-img-card">
               <img
                 src="https://www.php.net/images/logos/new-php-logo.svg"
-                alt="Illustration For Creating The Library And Adding Dependencies - Js Logo Transparent, HD Png Download@kindpng.com"
+                alt="PHP Logo"
               />
             </div>
 
             <div className="skill-img-card">
               <img
                 src="https://www.logo.wine/a/logo/MySQL/MySQL-Logo.wine.svg"
-                alt="mysql"
+                alt="MySQL Logo"
               />
             </div>
             <div className="skill-img-card">
               <img
                 src="https://logos-download.com/wp-content/uploads/2016/10/Python_logo_icon.png"
-                alt="mysql"
+                alt="Python Logo"
               />
             </div>
             <div className="skill-img-card">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
-                alt="mysql"
+                alt="C++ Logo"
               />
             </div>
             <div className="skill-img-card">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg"
-                alt="c language"
+                alt="c language Logo"
               />
             </div>
             <div className="skill-img-card">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"
-                alt="c language"
+                alt="Git Logo"
               />
             </div>
             <div className="skill-img-card">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Ei-sc-github.svg"
-                alt="c language"
+                alt="GitHub Logo"
               />
             </div>
           </div>
