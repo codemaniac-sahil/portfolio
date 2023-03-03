@@ -142,6 +142,12 @@ function About(props) {
                 alt="c language"
               />
             </div>
+            <div className="skill-img-card">
+              <img
+                src="https://allvectorlogo.com/img/2021/12/github-logo-vector.png"
+                alt="c language"
+              />
+            </div>
           </div>
 
           <Footer />
