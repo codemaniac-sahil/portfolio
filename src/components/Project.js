@@ -21,6 +21,13 @@ function Project(props) {
           </div>
           <div className="project-card-container">
             <ProjectCard
+              title="ReviewerZ"
+              projectdesc="Reviewerz is a book reviewing website that allows users to browse through a catalog of books, read reviews, and write their own reviews for books they've read."
+              glink="https://github.com/codemaniac-sahil/reviewerZ"
+              llink="https://reviewerz.netlify.app/"
+              theme={props.theme}
+            />
+            <ProjectCard
               title="Def-Call"
               projectdesc="Def-call is a video calling website for mute people developed using Python, ReactJS, NodeJS and socket.io. Right now, it can only detect 7 sign language."
               glink="https://github.com/codemaniac-sahil/Def-call"

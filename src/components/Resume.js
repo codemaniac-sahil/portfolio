@@ -8,7 +8,7 @@ function Resume(props) {
       <NavbarAll theme={props.theme} />
       <div className="resume">
         <object
-          data="/file/sahil-bisht-02-11-2022.pdf"
+          data="/file/sahil-bisht-12-03-2023.pdf"
           type="application/pdf"
           aria-label="Alternative Text"
         />
