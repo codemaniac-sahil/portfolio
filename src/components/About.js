@@ -4,8 +4,30 @@ import Footer from "./Footer";
 // import Navbar from './Navbar'
 import NavbarAll from "./NavbarAll";
 import { FaMoon, FaSun } from "react-icons/fa";
+import javascript from '../skill-images/javascript.png'
+import github from '../skill-images/github.png'
+import php from '../skill-images/php.png'
+import python from '../skill-images/python.png'
+import react from '../skill-images/react.png'
+import clang from '../skill-images/c lang.png'
+import mongodb from '../skill-images/mongodb.png'
+import nodejs from '../skill-images/nodejs.png'
+import aws from '../skill-images/aws.png'
+import azure from '../skill-images/azure.png'
+import git from '../skill-images/git.png'
+import mysql from '../skill-images/mysql.png'
+
+
+
+
 
 function About(props) {
+  const getAge=()=>{
+    const birthYear = new Date('12/08/2001').getFullYear();
+    const currentYear = new Date().getFullYear();
+    const age = currentYear - birthYear;
+    return age;
+  }
   return (
     <>
       <div className={`about-${props.theme}`}>
@@ -26,11 +48,24 @@ function About(props) {
               <h1>Web Developer</h1>
               <p>
                 {" "}
-                I am web developer, having good ability to transcribe any UI on
-                website, good command of modern tools/ technologies, in Web
-                development, meticulous, respects the rules of good development
-                , I am good in teamwork and leadership and I like to go ahead in
-                aid propose ideas to advance a project.{" "}
+                Hi there! I'm Sahil, a passionate MERN Stack Developer and Solana Developer with a knack for turning ideas into reality through coding magic. 🚀<br/>
+
+🔹 Who am I?<br/>
+I'm a self-motivated and curious individual who thrives on challenges and loves to dive deep into the world of web development. My journey began with a fascination for MERN (MongoDB, Express.js, React, Node.js) stack and has recently expanded into the exciting realm of Solana blockchain development.<br/>
+
+🔹 What I Bring to the Table:<br/>
+While I may not have formal experience, my dedication and commitment have led me to embark on remarkable projects showcasing my skills and determination. These projects are not just code; they represent my passion and the countless hours I've poured into refining my craft.<br/>
+
+🔹 What Drives Me:<br/>
+I'm motivated by the opportunity to learn and improve continuously. The ever-evolving nature of technology keeps me on my toes, and I'm committed to staying at the forefront of innovation in the web and blockchain domains.<br/>
+
+🔹 What's Next:<br/>
+I'm excited to join a team where I can collaborate with like-minded professionals, contribute to innovative projects, and further hone my development skills. While my journey is just beginning, I'm eager to make a meaningful impact in the tech world.<br/>
+
+🔹 Let's Connect:<br/>
+If you're passionate about cutting-edge technologies, web development, or the potential of blockchain, I'd love to connect! Feel free to reach out to me on LinkedIn.<br/>
+
+Thank you for stopping by, and I'm looking forward to the exciting opportunities that lie ahead in this coding adventure! 🌟<br/>{" "}
               </p>
               <div className="info">
                 <div className="info-1">
@@ -48,7 +83,7 @@ function About(props) {
 
                 <div className="info-2">
                   <p>
-                    <span className="bold">Age : </span>21
+                    <span className="bold">Age : </span>{getAge()}
                   </p>
                   <p>
                     <span className="bold">Degree : </span>Bachelor's of
@@ -69,90 +104,40 @@ function About(props) {
           </div>
           <div className="skill-image">
             <div className="skill-img-card">
-              <img
-                src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png"
-                alt="html"
-              />
+              <img src={javascript} alt="JavaScript"/>
             </div>
             <div className="skill-img-card">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
-                alt="CSS Logo"
-              />
+              <img src={react} alt="reactJs"/>
+            </div>
+             <div className="skill-img-card">
+              <img src={python} alt="python"/>
             </div>
             <div className="skill-img-card">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png"
-                alt="JS Logo"
-              />
+              <img src={php} alt="php"/>
             </div>
             <div className="skill-img-card">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png"
-                alt="ReactJs Logo"
-              />
-            </div>
-
-            <div className="skill-img-card">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png"
-                alt="NodeJs logo"
-              />
+              <img src={github} alt="github"/>
             </div>
             <div className="skill-img-card">
-              <img
-                src="https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Logo.png"
-                alt="MongoDB Logo"
-              />
+              <img src={clang} alt="clang"/>
             </div>
             <div className="skill-img-card">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/archive/6/64/20170429090804%21Expressjs.png"
-                alt="ExpressJS Logo"
-              />
+              <img src={mongodb} alt="mongodb"/>
             </div>
             <div className="skill-img-card">
-              <img
-                src="https://www.php.net/images/logos/new-php-logo.svg"
-                alt="PHP Logo"
-              />
-            </div>
-
-            <div className="skill-img-card">
-              <img
-                src="https://www.logo.wine/a/logo/MySQL/MySQL-Logo.wine.svg"
-                alt="MySQL Logo"
-              />
+              <img src={nodejs} alt="nodejs"/>
             </div>
             <div className="skill-img-card">
-              <img
-                src="https://logos-download.com/wp-content/uploads/2016/10/Python_logo_icon.png"
-                alt="Python Logo"
-              />
+              <img src={aws} alt="aws"/>
             </div>
             <div className="skill-img-card">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
-                alt="C++ Logo"
-              />
+              <img src={azure} alt="azure"/>
             </div>
             <div className="skill-img-card">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg"
-                alt="c language Logo"
-              />
+              <img src={git} alt="git"/>
             </div>
             <div className="skill-img-card">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"
-                alt="Git Logo"
-              />
-            </div>
-            <div className="skill-img-card">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Ei-sc-github.svg"
-                alt="GitHub Logo"
-              />
+              <img src={mysql} alt="mysql"/>
             </div>
           </div>
 

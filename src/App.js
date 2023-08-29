@@ -9,7 +9,7 @@ import Project from "./components/Project";
 import { useState } from "react";
 
 function App() {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
   const toggleTheme = () => {
     if (theme === "dark") {
       setTheme("light");

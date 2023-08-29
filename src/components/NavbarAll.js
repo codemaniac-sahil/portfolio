@@ -14,12 +14,12 @@ function NavbarAll(props) {
             <NavLink to="/">Sahil Bisht</NavLink>
           </h1>
         </div>
-        <a href="#" className="toggle-button" onClick={() => setShow(!show)}>
+        <NavLink href="#" className="toggle-button" onClick={() => setShow(!show)}>
           <span className={`bar-${props.theme}`}></span>
           <span className={`bar-${props.theme}`}></span>
 
           <span className={`bar-${props.theme}`}></span>
-        </a>
+        </NavLink>
         <NavbarOne show={show} theme={props.theme} />
       </div>
     </div>

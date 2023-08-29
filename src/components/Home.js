@@ -2,6 +2,7 @@ import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { SiBuymeacoffee } from "react-icons/si";
 import Navbar from "./Navbar";
+import {NavLink} from 'react-router-dom'
 import { useState } from "react";
 import Footer from "./Footer";
 import { FaMoon, FaSun } from "react-icons/fa";
@@ -22,8 +23,8 @@ function Home(props) {
                 India
               </h2>
               <nav className={`navbar-${props.theme}`}>
-                <a
-                  href="#"
+                <NavLink
+                  to="#"
                   className="toggle-button1"
                   onClick={() => setShow(!show)}
                 >
@@ -32,7 +33,7 @@ function Home(props) {
                   <span className={`bar1-${props.theme}`}></span>
 
                   <span className={`bar1-${props.theme}`}></span>
-                </a>
+                </NavLink>
                 <Navbar show={show} theme={props.theme} />
               </nav>
             </div>
