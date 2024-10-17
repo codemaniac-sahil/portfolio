@@ -9,7 +9,7 @@ import Project from "./components/Project";
 import { useEffect, useState } from "react";
 
 function App() {
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
   useEffect(() => {
     // Get theme from localStorage on initial render
     const storedTheme = localStorage.getItem('theme');
