@@ -6,10 +6,26 @@ import Home from "./components/Home";
 // import Navbar from './components/Navbar';
 import Resume from "./components/Resume";
 import Project from "./components/Project";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
+  useEffect(() => {
+    // Get theme from localStorage on initial render
+    const storedTheme = localStorage.getItem('theme');
+    if (storedTheme) {
+      setTheme(storedTheme);
+    }
+  }, []);
+  useEffect(() => {
+    // Update localStorage whenever theme changes
+    localStorage.setItem('theme', theme);
+
+    // Update the body class to reflect the theme
+    document.body.className = theme;
+
+  }, [theme]);
+
   const toggleTheme = () => {
     if (theme === "dark") {
       setTheme("light");

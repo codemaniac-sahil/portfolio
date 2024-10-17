@@ -21,6 +21,39 @@ function Project(props) {
           </div>
           <div className="project-card-container">
             <ProjectCard
+              title="Documate"
+              projectdesc="A real-time collaborative document editor similar to Google Docs, utilizing React.js for the front-end and
+Node.js with Socket.IO for real-time communication and back-end services."
+              glink="https://github.com/codemaniac-sahil/documate"
+              llink="https://docu-mate.netlify.app/"
+              theme={props.theme}
+            />
+
+
+
+            <ProjectCard
+              title="ShareSphere"
+              projectdesc="A social media website aimed at fostering community engagement and sharing of ideas."
+              glink="https://github.com/codemaniac-sahil/sharesphere"
+              llink="https://sharesphere-frontend.vercel.app/"
+              theme={props.theme}
+            />
+
+
+
+
+            <ProjectCard
+              title="Bloggle"
+              projectdesc="A full-stack blog writing website leveraging the MERN (MongoDB, Express.js, React.js, Node.js) stack to
+facilitate blog creation, reading, and interaction functionalities."
+              glink="https://github.com/codemaniac-sahil/blogglevista"
+              llink="https://blogvista-frontend.vercel.app/"
+              theme={props.theme}
+            />
+
+
+
+            <ProjectCard
               title="ReviewerZ"
               projectdesc="Reviewerz is a book reviewing website that allows users to browse through a catalog of books, read reviews, and write their own reviews for books they've read."
               glink="https://github.com/codemaniac-sahil/reviewerZ"

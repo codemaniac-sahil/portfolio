@@ -22,7 +22,7 @@ import mysql from '../skill-images/mysql.png'
 
 
 function About(props) {
-  const getAge=()=>{
+  const getAge = () => {
     const birthYear = new Date('12/08/2001').getFullYear();
     const currentYear = new Date().getFullYear();
     const age = currentYear - birthYear;
@@ -45,27 +45,10 @@ function About(props) {
               <img src={require("../images/myprofile.jpg")} alt="myprofile" />
             </div>
             <div className="aboutme-section">
-              <h1>Web Developer</h1>
+              <h1>Full Stack Developer</h1>
               <p>
-                {" "}
-                Hi there! I'm Sahil, a passionate MERN Stack Developer and Solana Developer with a knack for turning ideas into reality through coding magic. 🚀<br/>
 
-🔹 Who am I?<br/>
-I'm a self-motivated and curious individual who thrives on challenges and loves to dive deep into the world of web development. My journey began with a fascination for MERN (MongoDB, Express.js, React, Node.js) stack and has recently expanded into the exciting realm of Solana blockchain development.<br/>
-
-🔹 What I Bring to the Table:<br/>
-While I may not have formal experience, my dedication and commitment have led me to embark on remarkable projects showcasing my skills and determination. These projects are not just code; they represent my passion and the countless hours I've poured into refining my craft.<br/>
-
-🔹 What Drives Me:<br/>
-I'm motivated by the opportunity to learn and improve continuously. The ever-evolving nature of technology keeps me on my toes, and I'm committed to staying at the forefront of innovation in the web and blockchain domains.<br/>
-
-🔹 What's Next:<br/>
-I'm excited to join a team where I can collaborate with like-minded professionals, contribute to innovative projects, and further hone my development skills. While my journey is just beginning, I'm eager to make a meaningful impact in the tech world.<br/>
-
-🔹 Let's Connect:<br/>
-If you're passionate about cutting-edge technologies, web development, or the potential of blockchain, I'd love to connect! Feel free to reach out to me on LinkedIn.<br/>
-
-Thank you for stopping by, and I'm looking forward to the exciting opportunities that lie ahead in this coding adventure! 🌟<br/>{" "}
+                I am Sahil Bisht, a passionate Full-Stack Developer with a knack for creating efficient and user-friendly solutions. I hold a Bachelor's degree in Computer Science from KIET Group of Institutions and have honed my skills working at EasyEd, where I led both front-end and back-end development initiatives. My technical expertise spans across various technologies such as React, Node.js, MongoDB, Express.js, and PHP. I also have a strong understanding of cloud platforms like Amazon AWS, Microsoft Azure, and GCP, and I am proficient in Docker. My portfolio includes diverse projects, including a real-time collaborative document editor and a specialized video calling platform for deaf and mute individuals. I am always eager to learn and adapt to new technologies and challenges. In my spare time, I enjoy contributing to open-source projects and exploring new tech trends.
               </p>
               <div className="info">
                 <div className="info-1">
@@ -104,40 +87,40 @@ Thank you for stopping by, and I'm looking forward to the exciting opportunities
           </div>
           <div className="skill-image">
             <div className="skill-img-card">
-              <img src={javascript} alt="JavaScript"/>
+              <img src={javascript} alt="JavaScript" />
             </div>
             <div className="skill-img-card">
-              <img src={react} alt="reactJs"/>
-            </div>
-             <div className="skill-img-card">
-              <img src={python} alt="python"/>
+              <img src={react} alt="reactJs" />
             </div>
             <div className="skill-img-card">
-              <img src={php} alt="php"/>
+              <img src={python} alt="python" />
             </div>
             <div className="skill-img-card">
-              <img src={github} alt="github"/>
+              <img src={php} alt="php" />
             </div>
             <div className="skill-img-card">
-              <img src={clang} alt="clang"/>
+              <img src={github} alt="github" />
             </div>
             <div className="skill-img-card">
-              <img src={mongodb} alt="mongodb"/>
+              <img src={clang} alt="clang" />
             </div>
             <div className="skill-img-card">
-              <img src={nodejs} alt="nodejs"/>
+              <img src={mongodb} alt="mongodb" />
             </div>
             <div className="skill-img-card">
-              <img src={aws} alt="aws"/>
+              <img src={nodejs} alt="nodejs" />
             </div>
             <div className="skill-img-card">
-              <img src={azure} alt="azure"/>
+              <img src={aws} alt="aws" />
             </div>
             <div className="skill-img-card">
-              <img src={git} alt="git"/>
+              <img src={azure} alt="azure" />
             </div>
             <div className="skill-img-card">
-              <img src={mysql} alt="mysql"/>
+              <img src={git} alt="git" />
+            </div>
+            <div className="skill-img-card">
+              <img src={mysql} alt="mysql" />
             </div>
           </div>
 
