@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import { FaMoon, FaSun } from "react-icons/fa";
 import guywithhoody from "../images/guywithhoody.svg";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
+import { SiLeetcode } from "react-icons/si";
 
 function Home(props) {
   const [show, setShow] = useState(false);
@@ -46,17 +47,20 @@ function Home(props) {
             </div>
 
             <div className={`social-link-${props.theme}`}>
-              <a href="https://github.com/codemaniac-sahil">
+              <a href="https://github.com/codemaniac-sahil" target="_blank">
                 <AiFillGithub />
               </a>
-              <a href="https://www.instagram.com/bisht_6903">
+              <a href="https://www.instagram.com/bisht_6903" target="_blank">
                 <AiFillInstagram />
               </a>
-              <a href="https://www.linkedin.com/in/sahil-bisht-a218b0220/">
+              <a href="https://www.linkedin.com/in/sahil-bisht-a218b0220/" target="_blank">
                 <AiFillLinkedin />
               </a>
-              <a href="https://www.buymeacoffee.com/codemaniacsahil">
+              <a href="https://www.buymeacoffee.com/codemaniacsahil" target="_blank">
                 <SiBuymeacoffee />
+              </a>
+              <a href="https://leetcode.com/u/codemaniac-sahil/" target="_blank">
+                <SiLeetcode />
               </a>
             </div>
           </div>
