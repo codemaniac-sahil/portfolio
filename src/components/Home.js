@@ -53,9 +53,7 @@ function Home(props) {
               <a href="https://www.instagram.com/bisht_6903" target="_blank">
                 <AiFillInstagram />
               </a>
-              <a href="https://www.linkedin.com/in/sahil-bisht-a218b0220/" target="_blank">
-                <AiFillLinkedin />
-              </a>
+
               <a href="https://www.buymeacoffee.com/codemaniacsahil" target="_blank">
                 <SiBuymeacoffee />
               </a>
